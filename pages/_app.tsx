@@ -1,5 +1,6 @@
-import Layout from '@components/Layout/Layout';
+import Layout from '@components/Layout/Layout'
 import type { AppProps } from 'next/app'
+import '../style.css'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   //Providers - Context/Providers, Theme, data

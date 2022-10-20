@@ -7,7 +7,7 @@ type LayoutProps = {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
       {children}
       <footer>This is the footer</footer>
