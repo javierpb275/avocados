@@ -1,14 +1,14 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-export default class MyDocument extends Document {
+class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          {/*faviocon*/}
-          {/*webfont*/}
-          {/*stylesheet*/}
-          {/*script/js*/}
+          {/** FavIcon */}
+          {/** WebFont */}
+          {/** stylesheets */}
+          {/** scripts */}
         </Head>
         <body className="my-body-class">
           <Main />
@@ -18,3 +18,5 @@ export default class MyDocument extends Document {
     )
   }
 }
+
+export default MyDocument
