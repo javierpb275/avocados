@@ -1,5 +1,6 @@
-import Navbar from '@components/Navbar/Navbar'
-import React from 'react'
+import Navbar from '@components/Navbar/Navbar';
+import React from 'react';
+import styles from './layout.module.css';
 
 type LayoutProps = {
   children: React.ReactNode
@@ -7,7 +8,7 @@ type LayoutProps = {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className='container'>
+    <div className={styles.container}>
       <Navbar />
       {children}
       <footer>This is the footer</footer>
